@@ -1,0 +1,116 @@
+/*!* Theme: ThePRO
+* Description: Personal Portfolio Wordpress Theme
+* Author: ThemeREC
+* Author URI: https://www.templatemonster.com/authors/themerec/
+* Version: v1.0.0
+* License: TemplateMonster Website Templates Licenses: https://www.templatemonster.com/licenses*/
+blockquote {
+  border-color: var(--theme-color);
+}
+::marker {
+  color: var(--theme-color);
+}
+.btn.button-scheme {
+  background-color: var(--theme-color);
+  border: 1px solid var(--theme-color);
+}
+.btn.button-scheme:hover {
+  color: #fff;
+  filter: brightness(1.1);
+}
+.btn.button-scheme:focus {
+  opacity: 0.8;
+  box-shadow: none !important;
+}
+::-moz-selection {
+  background-color: var(--theme-color);
+  color: #fff;
+}
+::selection {
+  background-color: var(--theme-color);
+  color: #fff;
+}
+a:not(.btn) {
+  color: var(--theme-color);
+}
+a:not(.btn):focus,
+a:not(.btn):hover {
+  filter: brightness(1.2);
+}
+.social-icons i.icon:hover {
+  color: var(--theme-color);
+}
+.section-heading.page-heading > .animated-bar {
+  background-color: var(--theme-color);
+}
+.services-section .single-service:hover {
+  border-bottom-color: var(--theme-color);
+}
+.services-section .single-service .service-icon {
+  color: var(--theme-color);
+}
+.testimonials-section .single-review .review-icon {
+  color: var(--theme-color);
+}
+.pricing-section .single-plan .plan-icon {
+  color: var(--theme-color);
+}
+.resume-section .resume-item {
+  border-left-color: var(--theme-color);
+}
+.resume-section .resume-item .item-arrow:before {
+  background-color: var(--theme-color);
+}
+.resume-section .resume-item .item-arrow:after {
+  border-left-color: var(--theme-color);
+}
+.skills-section .single-skill .skill-progress .progress-bar {
+  background-color: var(--theme-color);
+}
+.portfolio-section .filter-control > li.tab-active,
+.portfolio-section .filter-control > li:hover {
+  color: var(--theme-color);
+  filter: brightness(1.2);
+}
+.portfolio-section .filter-control > li.tab-active:before,
+.portfolio-section .filter-control > li:hover:before {
+  background-color: var(--theme-color);
+  filter: brightness(1.2);
+}
+.portfolio-section
+  .portfolio-grid
+  .portfolio-wrapper:hover
+  .item-content
+  .icon {
+  color: var(--theme-color);
+}
+.portfolio-section
+  .portfolio-grid
+  .portfolio-wrapper
+  .item-content
+  .content-more {
+  color: var(--theme-color);
+}
+.blog-section .single-post .post-img .content-date {
+  background-color: var(--theme-color);
+}
+.single-post .post-tags a {
+  border: 1px solid var(--theme-color);
+  color: var(--theme-color);
+}
+.pagination ul li a:hover,
+.pagination ul li span:hover {
+  background-color: var(--theme-color);
+  color: #fff;
+  filter: none;
+}
+.pagination ul li .current {
+  background-color: var(--theme-color);
+  color: #fff;
+}
+.wpcf7 .wpcf7-form .form-group .form-control:focus {
+  border-bottom: 1px solid var(--theme-color);
+}
+.comment-from .form-group .form-control:focus {
+  border-bottom: 1px solid var(--theme-color);
+}
